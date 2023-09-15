@@ -1,0 +1,8 @@
+.sideleft_contaienr{
+    height: 90vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 0 4px gray;
+}

@@ -1,0 +1,47 @@
+.color_container{
+    /* height: 350px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    /* overflow-y: scroll; */
+}
+.color_button{
+    border: none;
+    background-color:transparent;
+    margin: 5px;
+}
+.active_color{
+    /* margin-left:px; */
+    padding-left: 3px;
+    height: 50px;
+    width:50px; 
+    border-radius: 50%;
+    border: 2px solid ;
+}
+.color1{
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.getBtn_count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.color_label{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.span_color{
+    color: red;
+    font-size: medium;
+}

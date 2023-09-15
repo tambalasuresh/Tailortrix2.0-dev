@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+}
+.topbar_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 3px gray;
+}
+
+.footer_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    /* top: 0; */
+    /* right: 0; */
+    /* left: 0; */
+    bottom: 0;
+    width: 450px;
+    box-shadow: 0 0 3px gray;
+}
+.btn{
+    border: none;
+}
+.icon_style{
+    color: rgb(241, 115, 115);
+    font-size: 15px;
+    font-weight: bold;
+}
+.active_icon{
+    color: black;
+}

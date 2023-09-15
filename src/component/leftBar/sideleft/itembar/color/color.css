@@ -1,0 +1,115 @@
+.color_container{
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow-y: scroll;
+}
+.color_button{
+    border: none;
+    background-color:transparent;
+    margin: 5px;
+}
+.color1,.color2,.color3,.color4,.color5,.color6,.color7,.color8,.color9,.color10,.color11,.color12
+,.color13,.color14,.color15,.color16,.color17,.color18,.color19,.color20,.color21,.color22,.color23,.color24
+,.color25{
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.color1{
+    background-color: pink;
+}
+.color2{
+    background-color: aqua;
+}
+.color3{
+    background-color: aquamarine;
+}
+.color4{
+    background-color: azure;
+}
+.color5{
+    background-color: blue;
+}
+.color6{
+    background-color: blueviolet;
+}
+.color7{
+    background-color: brown;
+}
+.color8{
+    background-color: burlywood;
+}
+.color9{
+    background-color: cadetblue;
+}
+.color10{
+    background-color: chartreuse;
+}
+.color11{
+    background-color: chocolate;
+}
+.color12{
+    background-color: cornflowerblue;
+}
+.color13{
+    background-color: crimson;
+}
+.color14{
+    background-color: cyan;
+}
+.color15{
+    background-color: darkcyan;
+}
+.color16{
+    background-color: darkmagenta;
+}
+.color17{
+background-color: deeppink;
+}
+.color18{
+    background-color: deepskyblue;
+}
+.color19{
+    background-color: dimgray;
+}
+.color20{
+    background-color: dodgerblue;
+}
+.color21{
+    background-color: firebrick;
+}
+.color22{
+    background-color:khaki;
+}
+.color23{
+    background-color: forestgreen;
+}
+.color24{
+    background-color: gold;
+}
+.color25{
+background-color: goldenrod;
+}
+.getBtn_count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.color_label{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.span_color{
+    color: red;
+    font-size: medium;
+}

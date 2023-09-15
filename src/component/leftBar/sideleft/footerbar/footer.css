@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+.icon_contianer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 3px gray;
+}
+.btn{
+    border: none;
+}
+.icon_style{
+    color: rgb(241, 115, 115);
+    font-size: 15px;
+    font-weight: bold;
+}
+.active_icon{
+    color: black;
+}

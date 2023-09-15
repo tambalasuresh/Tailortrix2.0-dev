@@ -1,0 +1,32 @@
+.Patche_btn{
+    background-color: transparent;
+    border: none;
+    height: 90px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 2px;
+    cursor: pointer;
+}
+.Patche_label{
+    font: optional;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+.Patche_btn:hover{
+    border: 1px solid rgb(239, 31, 66);
+    border-radius: 10px;
+}
+.Patche_btn:focus{
+    border: 1px solid rgb(239, 31, 66);
+    border-radius: 10px;
+    color: rgb(239, 31, 66);
+}
+.active_patche{
+    border: 1px solid rgb(48, 239, 31);
+    border-radius: 10px;
+    color: rgb(239, 31, 66);
+}

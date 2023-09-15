@@ -1,0 +1,20 @@
+
+.profile_info{
+    background-color: fuchsia;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+}
+.hide{
+    display: none;
+}
+.profile_info:hover + .hide {
+    position: absolute;
+    top: 0;
+    display: block;
+    margin-top: 55px;
+    margin-left: -10px;
+    color: rgb(15, 15, 15);
+  }

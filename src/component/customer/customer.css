@@ -1,0 +1,13 @@
+.customer{
+  border-right: 1px dashed gray;
+   height: 86vh;
+}
+.customer_label{
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.customer_input{
+    border: 1px solid saddlebrown;
+}

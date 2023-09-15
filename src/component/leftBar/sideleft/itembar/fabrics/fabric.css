@@ -1,0 +1,142 @@
+.bg_fabric{
+    display: flex;
+    flex-direction: column;
+}
+.fabric_container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.fabric_button{
+    border: none;
+    background-color: transparent;
+    margin: 5px;
+}
+.fabric1,.fabric2,.fabric3,.fabric4,.fabric5,.fabric6,.fabric7,.fabric8,.fabric9,.fabric10,.fabric11
+,.fabric12,.fabric13,.fabric14,.fabric15,.fabricupload1{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+}
+.fabric1{
+    background-image: url("https://media.istockphoto.com/id/1250090516/vector/embroidery-seamless-ornament.jpg?s=612x612&w=0&k=20&c=_2ulRUWkCau37FQjne_OvoUPiKXk1gP-Do2zNc_D628=");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.fabric2{
+    background-image: url("https://img.freepik.com/premium-photo/embroidery-floral-seamless-pattern-embroidered-flowers-repeating-fabric-backdrop-3d-illustration_598586-2086.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric3{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2180120249/display_1500/stock-photo-ajrakh-pattern-and-block-print-pattern-and-batik-print-background-digital-printing-textile-pattern-2180120249.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric4{
+    background-image: url("https://c8.alamy.com/comp/EX6YFD/textile-design-with-flower-motif-from-textile-arts-series-EX6YFD.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric5{
+    background-image: url("https://cdn.dribbble.com/users/403631/screenshots/15098791/media/84fa50d4d153821c52b469f542b33e9b.jpg?resize=400x0");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric6{
+    background-image: url("https://img.freepik.com/premium-vector/seamless-pattern-with-decorative-flowers_515421-690.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric7{
+    background-image: url("https://i.pinimg.com/236x/1a/c2/ab/1ac2ab9ee0d984510a6cb4e9511b262f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric8{
+    background-image: url("https://i.pinimg.com/236x/d7/cb/5e/d7cb5ee47c618769bfda5fb2417bd52b--fabric-design-textile-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric9{
+    background-image: url("https://www.fabricgateway.com/images/fabricgateway/b3/b36d720a79d15e70d020cdfebeb05b16.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric10{
+    background-image: url("https://www.fabricgateway.com/images/fabricgateway/s_e1/e15145b6d7201e2f0a740495739d7f36.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric11{
+    background-image: url("https://i.pinimg.com/236x/68/bf/2b/68bf2bebe19f5da1c630ba226b05a692--african-patterns-african-pattern-fabric.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric12{
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2076941224/display_1500/stock-vector-seamless-pattern-in-patchwork-style-embroidered-print-for-carpet-textile-wallpaper-wrapping-2076941224.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric13{
+    background-image: url("https://img.freepik.com/free-vector/floral-background-pattern_53876-80432.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric14{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86OddBR7hpRYn2SJ__A4IrmNRmNR9lpIfW1qawoHyVZT6qbb9LJ-CN-2TiJIf_HLD2q0&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fabric15{
+    background-image: url("https://img.freepik.com/free-vector/vector-flower-seamless-pattern-element-elegant-texture-backgrounds-classical-luxury-old-fashioned-floral-ornament-seamless-texture-wallpapers-textile-wrapping_1217-2203.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.default_fab_btn{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.default_fab_btn:hover{
+    color: rgb(237, 139, 11);
+}
+.uploadFabric{
+    display: none;
+}
+.getBtn_count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+.top_fabric{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    /* background-color: pink; */
+}
+.default_fab_btn_active{
+    color: rgb(237, 139, 11);
+    
+}
+.default_upload{
+    padding-left: 20px;
+    height: 140px;
+    position: absolute;
+    bottom: 0;
+}
+.image_upload{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   padding-left: 10px;
+   align-items: center;
+}

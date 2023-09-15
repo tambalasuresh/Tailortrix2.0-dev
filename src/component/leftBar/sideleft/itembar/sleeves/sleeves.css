@@ -1,0 +1,29 @@
+.sleeves_menu_div{
+    display: flex;
+    flex-direction: column;
+}
+.sleeves_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.length_count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+     height: 25px;
+    
+}
+.count_label{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.span_label{
+    color: coral;
+    font-size: large;
+}

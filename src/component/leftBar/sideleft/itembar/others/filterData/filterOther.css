@@ -1,0 +1,10 @@
+.other_filter_container{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 4px pink;
+    background-color: beige;
+}

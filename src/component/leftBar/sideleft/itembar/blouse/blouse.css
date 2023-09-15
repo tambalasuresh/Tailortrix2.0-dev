@@ -1,0 +1,44 @@
+.list_item_container{
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: scroll;  
+}
+
+.list_item_container_div{
+    display: flex;
+    flex-direction: column;      
+}
+.count_contaienr{
+    margin-top: 5px;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+}   
+.count_label{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* padding-left: 280px; */
+    padding-top: 15px;
+    color: rgb(75, 77, 79);
+}
+.span_length{
+    color: rgb(22, 6, 252);
+    padding-left: 10px;
+    font-size:medium;
+   
+}
+.search_name_blouse{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    padding-left: 20px;
+    border-bottom: 0.5px solid gray;
+}

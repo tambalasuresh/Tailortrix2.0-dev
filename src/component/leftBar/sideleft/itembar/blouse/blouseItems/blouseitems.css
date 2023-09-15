@@ -1,0 +1,35 @@
+
+.item_list_button{
+    height: 120px;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+}
+.item_list_button:hover{
+border-top-left-radius: 25px;
+border-bottom-right-radius: 25px;
+background-color: pink;
+}
+.item_list_button:focus{
+    border-top-left-radius: 25px ;
+    border-bottom-right-radius: 25px;
+    border: 2px solid green;
+    color: palevioletred;
+}
+.icon_item_image{
+    width: 20mm;
+    height: 10mm;
+    fill: white;
+    stroke: black;
+    stroke-width: 70;
+}
+.item_label_style{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 80px;
+}

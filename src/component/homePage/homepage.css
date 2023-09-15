@@ -1,0 +1,82 @@
+.logo_style{
+    font-family:  serif;
+    font-weight: bold;
+    color: rgb(237, 13, 136);
+}
+.link_style{
+    text-decoration: none;
+}
+.login_container{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    0%{
+        background-position: 0 50%;
+    }
+}
+.main_backImage{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../homePage//background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h1_style{
+font-family: "Roboto";
+font-size: 45px;
+color: blueviolet;
+}
+.para_label{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: rgb(36, 35, 33);
+}
+.welcome_btn{
+    height: 60px;
+    width: 200px;
+    margin-right: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color:transparent;
+    border: 1px solid gray;
+    font-family: "Roboto";
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 10px;
+}
+.welcome_btn:hover{
+    background:linear-gradient(to right,rgb(232, 211, 162),rgb(151, 89, 89),rgb(165, 213, 165));
+    color: darkorange;
+    border: none;
+    font-weight: bold;
+}
+.login_label{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(58, 51, 51);
+    margin-bottom: 2px;
+}
+.para_label_login{
+    font-size: 25px;
+    font-family: "Roboto";
+    color: aliceblue;
+}
+.form_style_container{
+    background-color: rgb(236, 226, 226);
+    padding: 20px;
+    box-shadow: 0 0 1px 0 rgb(61, 59, 59);
+    border-radius: 10px;
+}

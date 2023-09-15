@@ -1,0 +1,8 @@
+.btn_active{
+    background-color: rgb(91, 94, 97);
+    color: aliceblue;
+    border: 1px solid gray;
+}
+.customer{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

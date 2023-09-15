@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.filter_container{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0 0 4px pink;
+    background-color: beige;
+}
+.label_radio{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.active_radio{
+    color: #e0557e;
+}
+.with_filter{
+    display: none;
+}
+.filtersub_container{
+    width: 250px;
+    margin-top: 5px;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

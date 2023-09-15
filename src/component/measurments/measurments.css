@@ -1,0 +1,15 @@
+.input_measurement_style{
+    border: 1px solid  sienna;
+}
+.measurment_label{
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.input_icon_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
